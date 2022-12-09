@@ -35,17 +35,11 @@ export default function Layout(props) {
           ],
           site_name: props.title
         }}
-        twitter={{
-          handle: "@surjithctly",
-          site: "@surjithctly",
-          cardType: "summary_large_image"
-        }}
       />
 
       <div className="antialiased text-gray-800 dark:bg-black dark:text-gray-400">
         <Navbar {...props} />
         <div>{children}</div>
-
         <Footer {...props} />
       </div>
     </>
