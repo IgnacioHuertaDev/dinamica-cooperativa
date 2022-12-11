@@ -7,6 +7,7 @@ import defaultOG from "../public/img/opengraph.jpg";
 import { postquery, configQuery } from "@lib/groq";
 import GetImage from "@utils/getImage";
 import PostList from "@components/postlist";
+import Header from "@components/header";
 
 export default function Post(props) {
   const { postdata, siteconfig, preview } = props;
@@ -53,6 +54,8 @@ export default function Post(props) {
               cardType: "summary_large_image"
             }}
           />
+          
+            <Header />
           <Container>
             <div className="grid gap-10 lg:gap-10 md:grid-cols-2 ">
               {posts.slice(0, 2).map(post => (

@@ -52,7 +52,7 @@ export default function About({ authors, siteconfig }) {
             decisioning.
           </p>
           <p>
-            <Link href="/contact">Get in touch</Link>
+            <Link href="/contact">Contactanos!</Link>
           </p>
         </div>
       </Container>

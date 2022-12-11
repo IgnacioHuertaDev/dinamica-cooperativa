@@ -37,7 +37,7 @@ export default function Layout(props) {
         }}
       />
 
-      <div className="antialiased text-gray-800 dark:bg-black dark:text-gray-400">
+      <div className="antialiased text-gray-800 bg-gray-50 dark:bg-black dark:text-gray-400">
         <Navbar {...props} />
         <div>{children}</div>
         <Footer {...props} />
